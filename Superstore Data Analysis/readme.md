@@ -40,6 +40,7 @@ monthly_growth_trend.png
 top_products.png
 
 ![QuickSight Dashboard](sales_by_region.png)
+![Result](result.png)
 
 💡 Key Highlights
 
@@ -197,4 +198,3 @@ Top products by category
 Year-over-year performance
 
 
-![Result](result.png)
