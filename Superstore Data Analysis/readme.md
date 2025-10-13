@@ -39,5 +39,6 @@ The goal is to transform raw data into meaningful business intelligence dashboar
 
 ### 🪣 Step 2: Data Ingestion in S3  
 - Uploaded datasets (e.g., `sales_data.csv`) into an S3 bucket.  
-- Example structure:  
+- Example structure:
+- s3://my-data-lake/sales_data/sales_data.csv
 
