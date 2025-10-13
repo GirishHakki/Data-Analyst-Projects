@@ -8,7 +8,76 @@ The goal is to transform raw data into meaningful business intelligence dashboar
 ---
 
 ## 🏗️ Architecture Diagram  
-![AWS Data Pipeline Architecture](flowchart.png)
+Query results stored automatically in another S3 location.
+
+📊 Step 5: Amazon QuickSight – Dashboard Visualization
+
+Connected QuickSight to Athena as a data source.
+
+Built interactive dashboards showing insights such as:
+
+Sales by region
+
+Monthly revenue growth
+
+Top 5 performing products
+
+Category-wise sales comparison
+
+📈 Example Dashboard
+
+Your live QuickSight dashboard (accessible only to authorized users):
+🔗 Click to View (Internal QuickSight Dashboard)
+
+📸 (If public access is disabled, include screenshots here instead)
+
+Example visuals to showcase in README:
+
+sales_by_region.png
+
+monthly_growth_trend.png
+
+top_products.png
+
+![QuickSight Dashboard](sales_by_region.png)
+
+💡 Key Highlights
+
+✅ 100% Serverless architecture
+✅ No ETL servers or manual schema management required
+✅ SQL-based analysis using Athena
+✅ Dynamic BI dashboards with QuickSight
+✅ Highly cost-effective and scalable
+
+🧰 Tools & Technologies
+
+AWS S3 – Object storage
+
+AWS Glue – Metadata catalog & ETL
+
+AWS Athena – Interactive SQL engine
+
+AWS QuickSight – Data visualization
+
+AWS IAM – Access control
+
+🧩 Use Case Example
+
+Imagine you have a dataset like:
+
+Region	Product	Sales	Month
+East	Laptop	1000	Jan
+West	Mouse	500	Feb
+
+You can visualize insights such as:
+
+Total sales by region
+
+Monthly sales trends
+
+Top products by category
+
+Year-over-year performance
 
 ### **Architecture Flow**
 1. **IAM User** – Provides access to AWS services with appropriate permissions.  
@@ -127,3 +196,5 @@ Top products by category
 
 Year-over-year performance
 
+
+![Result](result.png)
