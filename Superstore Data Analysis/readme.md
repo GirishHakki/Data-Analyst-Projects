@@ -58,7 +58,7 @@ GROUP BY region;
 
 Query results stored automatically in another S3 location.
 
-📊 Step 5: Amazon QuickSight – Dashboard Visualization
+### 📊 Step 5: Amazon QuickSight – Dashboard Visualization
 
 Connected QuickSight to Athena as a data source.
 
@@ -72,7 +72,7 @@ Top 5 performing products
 
 Category-wise sales comparison
 
-📈 Example Dashboard
+### 📈 Example Dashboard
 
 Your live QuickSight dashboard (accessible only to authorized users):
 🔗 Click to View (Internal QuickSight Dashboard)
