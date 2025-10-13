@@ -39,6 +39,91 @@ The goal is to transform raw data into meaningful business intelligence dashboar
 
 ### 🪣 Step 2: Data Ingestion in S3  
 - Uploaded datasets (e.g., `sales_data.csv`) into an S3 bucket.  
-- Example structure:
-- s3://my-data-lake/sales_data/sales_data.csv
+- Example structure: s3://my-data-lake/sales_data/sales_data.csv
+
+  
+### 🧠 Step 3: AWS Glue – Data Catalog Creation  
+- Created a Glue **Crawler** to scan the S3 bucket.  
+- Automatically detected schema and stored metadata in the **AWS Glue Data Catalog**.  
+- Table created: `sales_data_table`
+
+### 🔍 Step 4: AWS Athena – Querying the Data  
+- Used Athena to run SQL queries directly on the S3 data.  
+- Example query:
+```sql
+SELECT region, SUM(sales) AS total_sales 
+FROM sales_data_table
+GROUP BY region;
+
+
+Query results stored automatically in another S3 location.
+
+📊 Step 5: Amazon QuickSight – Dashboard Visualization
+
+Connected QuickSight to Athena as a data source.
+
+Built interactive dashboards showing insights such as:
+
+Sales by region
+
+Monthly revenue growth
+
+Top 5 performing products
+
+Category-wise sales comparison
+
+📈 Example Dashboard
+
+Your live QuickSight dashboard (accessible only to authorized users):
+🔗 Click to View (Internal QuickSight Dashboard)
+
+📸 (If public access is disabled, include screenshots here instead)
+
+Example visuals to showcase in README:
+
+sales_by_region.png
+
+monthly_growth_trend.png
+
+top_products.png
+
+![QuickSight Dashboard](sales_by_region.png)
+
+💡 Key Highlights
+
+✅ 100% Serverless architecture
+✅ No ETL servers or manual schema management required
+✅ SQL-based analysis using Athena
+✅ Dynamic BI dashboards with QuickSight
+✅ Highly cost-effective and scalable
+
+🧰 Tools & Technologies
+
+AWS S3 – Object storage
+
+AWS Glue – Metadata catalog & ETL
+
+AWS Athena – Interactive SQL engine
+
+AWS QuickSight – Data visualization
+
+AWS IAM – Access control
+
+🧩 Use Case Example
+
+Imagine you have a dataset like:
+
+Region	Product	Sales	Month
+East	Laptop	1000	Jan
+West	Mouse	500	Feb
+
+You can visualize insights such as:
+
+Total sales by region
+
+Monthly sales trends
+
+Top products by category
+
+Year-over-year performance
 
