@@ -66,7 +66,7 @@ MIT — feel free to fork, star, and use in your portfolio.
 
 ## 👨‍💻 About the Author
 Hey, I’m Girish Hakki, a DevOps Enginner & who loves Data Visualization Tools also.
-I break down complex data topics into simple, practical content that actually helps you land a job.
+I break down complex data topics into simple, practical content that actually helps me & you to land a job.
 
  ### 🚀 Stay Connected & Join my Data Community
 If you enjoyed this project and want to keep learning and growing as a data analyst, let’s stay in touch! I regularly share content around SQL, data analytics, portfolio projects, job tips, and more.
