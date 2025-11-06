@@ -100,7 +100,7 @@ This dashboard enables Uber management to:
 ---
 ![Images](s1.png)
 ---
-![Images](s2.png)
+![Images](s3.png)
 
 ## 💬 About the Author
 
