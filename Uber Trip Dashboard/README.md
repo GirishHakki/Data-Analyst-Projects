@@ -98,7 +98,7 @@ This dashboard enables Uber management to:
 - Automate **data refresh pipelines** in Power BI Service.  
 
 ---
-
+![alt text](s1.png)
 
 ---
 
@@ -106,7 +106,7 @@ This dashboard enables Uber management to:
 
 👤 **Girish Hakki**  
 🎯 DevOps Engineer
-🎯 Who Also Enjoys **Data Analyst**   
+🎯 Who Also Enjoys **Data Visualization**   
 💼 Passionate about transforming raw data into insights through analytics & visualization.  
 
 📩 **Email:** [girish.hakki.kuk@gmail.com]  
