@@ -110,8 +110,7 @@ This dashboard enables Uber management to:
 💼 Passionate about transforming raw data into insights through analytics & visualization.  
 
 📩 **Email:** [girish.hakki.kuk@gmail.com]  
-🔗 **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com)  
-📊 **Portfolio:** [yourportfolio.link](https://github.com/yourusername)
+🔗 **LinkedIn:** [linkedin.com/in/yourprofile](https://www.linkedin.com/in/girish-hakki/) 
 
 ---
 
