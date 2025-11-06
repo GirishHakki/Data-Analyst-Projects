@@ -98,9 +98,9 @@ This dashboard enables Uber management to:
 - Automate **data refresh pipelines** in Power BI Service.  
 
 ---
-![alt text](s1.png)
-
+![Images](s1.png)
 ---
+![Images](s2.png)
 
 ## 💬 About the Author
 
