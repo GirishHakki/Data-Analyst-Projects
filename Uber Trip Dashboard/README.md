@@ -99,4 +99,23 @@ This dashboard enables Uber management to:
 
 ---
 
-## 🗂️ Project Structure
+
+---
+
+## 💬 About the Author
+
+👤 **Girish Hakki**  
+🎯 DevOps Engineer
+🎯 Who Also Enjoys **Data Analyst**   
+💼 Passionate about transforming raw data into insights through analytics & visualization.  
+
+📩 **Email:** [girish.hakki.kuk@gmail.com]  
+🔗 **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com)  
+📊 **Portfolio:** [yourportfolio.link](https://github.com/yourusername)
+
+---
+
+> *"Turning data into decisions — one dashboard at a time."*
+
+---
+
