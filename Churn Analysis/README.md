@@ -27,20 +27,20 @@ Although this project focuses on churn analysis for a telecom firm, the techniqu
 
 ---
 
-Project Target
+### Project Target
 
 Create an entire ETL process in a database & a Power BI dashboard to utilize the Customer Data and achieve below goals:
 
-Visualize & Analyse Customer Data at below levels
-Demographic
-Geographic
-Payment & Account Info
-Services
-Study Churner Profile & Identify Areas for Implementing Marketing Campaigns
-Identify a Method to Predict Future Churners
+* Visualize & Analyse Customer Data at below levels
+* Demographic
+* Geographic
+* Payment & Account Info
+* Services
+* Study Churner Profile & Identify Areas for Implementing Marketing Campaigns
+* Identify a Method to Predict Future Churners
  
 
-Metrics Required
+### Metrics Required
 
 Total Customers
 Total Churn & Churn Rate
@@ -56,7 +56,7 @@ https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio
 
  
 
-Creating Database
+### Creating Database
 
 After installation, you will land on the following screen. Do remember to copy paste the server name somewhere because we will need this at a later stage. Also enable the checkbox which says “Trust Server Certificate” and then click on Connect
 
@@ -73,8 +73,8 @@ Task >> Import >> Flat file >> Browse CSV file
 
 Remember to add customerId as primary key and allow nulls for all remaining columns. This is done to avoid any errors while data load. Also make sure to change the datatype where it say Bit to Varchar(50). We are doing this because while using import wizard I faced issues with the BIT data type, however Varchar(50) works fine.
 
-Data Exploration – Check Distinct Values
-
+### Data Exploration – Check Distinct Values
+```
 SELECT Gender, Count(Gender) as TotalCount,
 Count(Gender)  1.0 / (Select Count() from stg_Churn)  as Percentage
 from stg_Churn
@@ -98,12 +98,12 @@ Count(State)  1.0 / (Select Count() from stg_Churn)  as Percentage
 from stg_Churn
 Group by State
 Order by Percentage desc
- 
+ ```
 
  
-
-Data Exploration – Check Nulls
-
+---
+### Data Exploration – Check Nulls
+```
 SELECT 
     SUM(CASE WHEN Customer_ID IS NULL THEN 1 ELSE 0 END) AS Customer_ID_Null_Count,
 
@@ -171,11 +171,11 @@ SELECT
 
 FROM stg_Churn;
  
+```
+--- 
 
- 
-
-Remove null and insert the new data into Prod table
-
+### Remove null and insert the new data into Prod table
+```
 SELECT 
     Customer_ID,
 
@@ -246,9 +246,10 @@ SELECT
 INTO [db_Churn].[dbo].[prod_Churn]
 
 FROM [db_Churn].[dbo].[stg_Churn];
-   
+```
+---   
 
- Create View for Power BI
+### Create View for Power BI
 
 Create View vw_ChurnData as
     select * from prod_Churn where Customer_Status In ('Churned', 'Stayed')
