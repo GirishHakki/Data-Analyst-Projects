@@ -270,7 +270,7 @@ Add a new column in prod_Churn
 
  
 
-Create a New Table Reference for mapping_AgeGrp
+### Create a New Table Reference for mapping_AgeGrp
 
 1.       Keep only Age column and remove duplicates
 
@@ -282,7 +282,7 @@ Create a New Table Reference for mapping_AgeGrp
 
  
 
-Create a new table reference for mapping_TenureGrp
+### Create a new table reference for mapping_TenureGrp
 
 1.       Keep only Tenure_in_Months and remove duplicates
 
@@ -294,15 +294,15 @@ Create a new table reference for mapping_TenureGrp
 
  
 
-Create a new table reference for prod_Services
+### Create a new table reference for prod_Services
 
 1.       Unpivot services columns
 
 2.       Rename Column – Attribute >> Services & Value >> Status
 
- 
+ ---
 
-STEP 3 – Power BI Measure
+### STEP 3 – Power BI Measure
 Total Customers = Count(prod_Churn[Customer_ID])
 
 New Joiners = CALCULATE(COUNT(prod_Churn[Customer_ID]), prod_Churn[Customer_Status] = “Joined”)
@@ -317,7 +317,7 @@ Churn Rate = [Total Churn] / [Total Customers]
 
  
 
-STEP 4 – Power BI Visualization
+### STEP 4 – Power BI Visualization
  
 
 Summary Page
@@ -371,21 +371,16 @@ Churn Reason Page (Tooltip)
 1.  Churn Reason – Total Churn
 
  
+---
 
- 
-
- 
-
- 
-
-STEP 5 – Predict Customer Churn
+### STEP 5 – Predict Customer Churn
 For predicting customer churn, we will be using a widely used Machine Learning algorithm called RANDOM FOREST.
 
 What is Random Forest?A random forest is a machine learning algorithm that consists of multiple decision trees. Each decision tree is trained on a random subset of the data and features. The final prediction is made by averaging the predictions (in regression tasks) or taking the majority vote (in classification tasks) from all the trees in the forest. This ensemble approach improves the accuracy and robustness of the model by reducing the risk of overfitting compared to using a single decision tree.
 
  
 
-Data Preparation for ML model
+### Data Preparation for ML model
 
 Let us first import views in an Excel file.
 
@@ -399,7 +394,7 @@ o   Save the file as Prediction_Data
 
  
 
-Create Churn Prediction Model – Random Forest
+### Create Churn Prediction Model – Random Forest
 
 Now we will work with an application called Jupyter Notebook and we will coding our ML model in Python. Easiest way to install both them is to install the ANACONDA Software Package. You can follow the below link to do so:
 
@@ -407,7 +402,7 @@ https://docs.anaconda.com/anaconda/install
 
  
 
-Installing Libraries
+### Installing Libraries
 
 Open the Anaconda Command Prompt and run below code:
 
@@ -690,6 +685,7 @@ c.       Tenure Group – Churn Count
 
 a.       State – Churn Count
 
+---
  
 
 That’s it, now you have a comprehensive Power BI dashboard with and Executive Summary to analyze historical data and also a Churn Prediction page to predict future churners. Hope I was able to provide value with this content. Keep following for more content. Cheers!
