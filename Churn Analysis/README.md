@@ -5,12 +5,19 @@ Introduction to Churn Analysis
 In today’s competitive business environment, retaining customers is crucial for long-term success. Churn analysis is a key technique used to understand and reduce this customer attrition. It involves examining customer data to identify patterns and reasons behind customer departures. By using advanced data analytics and machine learning, businesses can predict which customers are at risk of leaving and understand the factors driving their decisions. This knowledge allows companies to take proactive steps to improve customer satisfaction and loyalty.
 ---
 ![alt text](dashboard.png)
-Data & Other Resources Used
 
-Download
- Colors used
-
+---
+📁 Data & Resources Used
+Data Source: Customer churn data (Telecom industry)
+Database: Microsoft SQL Server
+Visualization Tool: Power BI
+Machine Learning Tool: Python (Jupyter Notebook)
+Languages & Libraries: SQL
+Python: pandas, numpy, matplotlib, seaborn, scikit-learn, joblib
+Color Palette Used:
 #4A44F2, #9B9FF2, #F2F2F2, #A0D1FF
+---
+
 
 Who is the Target Audience
 
