@@ -8,6 +8,7 @@ In today’s competitive business environment, retaining customers is crucial fo
 
 ---
 📁 Data & Resources Used
+```
 Data Source: Customer churn data (Telecom industry)
 Database: Microsoft SQL Server
 Visualization Tool: Power BI
@@ -16,6 +17,7 @@ Languages & Libraries: SQL
 Python: pandas, numpy, matplotlib, seaborn, scikit-learn, joblib
 Color Palette Used:
 #4A44F2, #9B9FF2, #F2F2F2, #A0D1FF
+```
 ---
 
 
