@@ -73,3 +73,9 @@ The project includes the following visualizations:
 
 ## 📂 Project Structure
 
+Blinkit-Analysis/
+│
+├── Blinkit Analysis with Python.ipynb # Jupyter Notebook (main analysis)
+├── Blinkit Analysis.pptx # Business presentation
+├── README.md # Project documentation
+
