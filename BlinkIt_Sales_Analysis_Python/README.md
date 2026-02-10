@@ -80,3 +80,38 @@ Blinkit-Analysis/
 ├── Blinkit Analysis.pptx # Business presentation
 ├── README.md # Project documentation
 
+
+
+
+---
+
+## 🚀 Key Learnings
+- Data cleaning and preprocessing
+- KPI calculation using Python
+- Business-focused data storytelling
+- Visualization best practices
+- Translating raw data into insights
+
+---
+
+## 📌 Conclusion
+This project provides a clear understanding of Blinkit’s sales trends and customer behavior.  
+The insights generated can help improve:
+- Product strategy
+- Inventory planning
+- Outlet-level decision making
+
+---
+
+## 👤 Author
+**Girish Hakki**  
+Aspiring Data Analyst  
+
+🔗 Portfolio: https://girishhakki.cloud  
+🔗 LinkedIn: (Add your LinkedIn profile link)
+
+---
+
+⭐ If you like this project, feel free to star the repository!
+
+
