@@ -73,6 +73,7 @@ The project includes the following visualizations:
 
 ## 📂 Project Structure
 
+```
 Blinkit-Analysis/
 │
 ├── Blinkit Analysis with Python.ipynb # Jupyter Notebook (main analysis)
