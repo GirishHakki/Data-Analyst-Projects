@@ -106,8 +106,7 @@ The insights generated can help improve:
 **Girish Hakki**  
 Aspiring Data Analyst  
 
-🔗 Portfolio: https://girishhakki.cloud  
-🔗 LinkedIn: (Add your LinkedIn profile link)
+🔗 Portfolio: https://girishhakki.cloud
 
 ---
 
