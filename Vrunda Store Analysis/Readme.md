@@ -6,7 +6,7 @@ This project analyzes retail sales data of Vrinda Store using Microsoft Excel to
 
 The analysis focuses on customer behavior, regional performance, demographic contribution, and sales channel efficiency.
 
-![alt text](http://url/to/img.png)
+![Report](Report.png)
 
 ## 🎯 Business Problem
 
