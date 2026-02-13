@@ -6,7 +6,7 @@ This project analyzes retail sales data of Vrinda Store using Microsoft Excel to
 
 The analysis focuses on customer behavior, regional performance, demographic contribution, and sales channel efficiency.
 
-🎯 Business Problem
+## 🎯 Business Problem
 
 Vrinda Store wanted to identify:
 
@@ -20,7 +20,7 @@ Which sales channels perform best?
 
 How to target marketing efforts for maximum ROI?
 
-🧠 Analytical Approach
+## 🧠 Analytical Approach
 
 ✔ Data Cleaning & Preparation
 ✔ Exploratory Data Analysis (EDA)
@@ -30,7 +30,7 @@ How to target marketing efforts for maximum ROI?
 ✔ Insight Generation
 ✔ Business Recommendation
 
-🛠️ Tools & Skills Demonstrated
+## 🛠️ Tools & Skills Demonstrated
 
 Tools
 
@@ -60,7 +60,7 @@ Insight Generation
 
 Decision Support
 
-📂 Dataset Description
+## 📂 Dataset Description
 
 The dataset contains order-level transactional data including:
 
@@ -85,7 +85,7 @@ Women contribute approximately 65% of total purchases
 
 Female customers are the primary revenue drivers
 
-🗺️ State-Wise Analysis
+## 🗺️ State-Wise Analysis
 
 Top-performing states:
 
@@ -97,13 +97,13 @@ Uttar Pradesh
 
 These states contribute approximately 35% of total sales
 
-👥 Age Group Analysis
+## 👥 Age Group Analysis
 
 The 30–49 years age segment contributes approximately 50% of revenue
 
 This is the most economically active customer group
 
-🛒 Sales Channel Analysis
+## 🛒 Sales Channel Analysis
 
 Major contributing platforms:
 
@@ -124,7 +124,7 @@ To maximize sales growth:
 👉 Located in Maharashtra, Karnataka, and Uttar Pradesh
 👉 Promote products via Amazon, Flipkart, and Myntra
 
-📢 Marketing Actions
+## 📢 Marketing Actions
 
 Targeted digital advertising
 
@@ -134,7 +134,7 @@ Festival campaigns
 
 Marketplace promotions
 
-📈 Expected Business Impact
+## 📈 Expected Business Impact
 
 Implementing these recommendations can:
 
@@ -144,7 +144,7 @@ Implementing these recommendations can:
 ✔ Boost revenue growth
 ✔ Enhance decision-making
 
-📊 Dashboard Features
+## 📊 Dashboard Features
 
 Interactive Pivot Dashboard
 
@@ -156,13 +156,8 @@ Channel Contribution Analysis
 
 Clean Business-Friendly Visualizations
 
-📁 Repository Contents
-Vrinda-Store-Sales-Analysis/
-│
-├── Vrinda Store Data Analysis.xlsx
-└── README.md
 
-🚀 How to Use
+## 🚀 How to Use
 
 Download the Excel file from this repository
 
@@ -172,7 +167,7 @@ Navigate to dashboard sheet
 
 Use slicers to interact with data
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 Build interactive dashboard in Power BI
 
@@ -184,7 +179,7 @@ Predictive sales modeling
 
 SQL-based data pipeline
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Girish Hakki
 Aspiring Data Analyst
